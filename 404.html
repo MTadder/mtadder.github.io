@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="EN">
+<!-- Oooh!, another cookie! It's not so fresh this time... -->
+<!-- 🍪 -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404</title>
+    <style>
+        body {
+            background-color: black;
+            color: #00FF00;
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+        }
+        .header {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .message {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        .button {
+            background-color: #00FF00;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            text-transform: uppercase;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #00CC00;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">404 - Not Found</div>
+        <div class="message">The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</div>
+        <button class="button" onclick="goBack()">Go Back</button>
+    </div>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>
