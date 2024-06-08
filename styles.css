@@ -1,0 +1,70 @@
+body {
+  background-color: black;
+  color: #00ff00;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding-top: 60px;
+}
+.navbar {
+  background-color: #242424;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+.navbar button {
+  background-color: #00ff00;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin: 5px;
+}
+.navbar button:hover {
+  background-color: blueviolet;
+}
+.container {
+  text-align: center;
+}
+.header {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.contact-info {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.email:hover {
+  color: blueviolet;
+}
+.code-block {
+  background-color: #111;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: left;
+}
+.button {
+  background-color: #00ff00;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin: 5px;
+}
+.button:hover {
+  background-color: #00cc00;
+}
