@@ -1,7 +1,7 @@
 body {
-  background-color: black;
-  color: #00ff00;
-  font-family: "Courier New", Courier, monospace;
+  background-color: #242424;
+  color: white;
+  font-family: monospace;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,21 +14,23 @@ body {
 .header {
   font-size: 2rem;
   margin-bottom: 1rem;
+  cursor: default;
 }
 .message {
   font-size: 1.2rem;
   margin-bottom: 2rem;
+  cursor: default;
 }
 .button {
-  background-color: #00ff00;
-  color: black;
+  background-color: transparent;
+  color: white;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
   text-transform: uppercase;
   font-weight: bold;
-  transition: background-color 0.3s;
+  transition: background-color 0.23s;
 }
 .button:hover {
-  background-color: red;
+  background-color: #484848;
 }
