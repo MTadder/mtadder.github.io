@@ -1,29 +1,31 @@
-<!DOCTYPE html>
+ <!doctype html>
 <html lang="en">
-  <!-- 🍪 -->
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="favicon.ico" />
-    <link rel="STYLESHEET" type="text/css" href="styles.css" />
-    <title>MTWeb</title>
+    <title><%- metaTitle %></title>
+
+    <meta property="title" content="<%- metaTitle %>" />
+    <meta name="description" content="<%- metaDescription %>" />
+
+    <meta itemprop="name" content="<%- metaTitle %>" />
+    <meta itemprop="description" content="<%- metaDescription %>" />
+    <meta itemprop="image" content="<%- metaImageURL %>" />
+
+    <meta property="og:title" content="<%- metaTitle %>" />
+    <meta property="og:description" content="<%- metaDescription %>" />
+    <meta property="og:image" content="<%- metaImageURL %>" />
+    <meta property="og:image:secure_url" content="<%- metaImageURL %>" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="<%- metaTitle %>" />
+    <meta name="twitter:description" content="<%- metaDescription %>" />
+    <meta name="twitter:image" content="<%- metaImageURL %>" />
   </head>
   <body>
-    <script src="main.js" type="application/javascript"></script>
-    <div class="navbar">
-      <button onclick="navTo('404.html')">projects</button>
-      <button onclick="navTo('404.html')">the_trail</button>
-      <button onclick="navTo('404.html')">research</button>
-      <button onclick="navTo('404.html')">art</button>
-      <button onclick="navTo('404.html')">music</button>
-    </div>
-    <footer>
-        <p onclick="navTo('404.html')">
-            email: <span class="email"> MTadder@duck.com </span>
-        </p>
-        <p onclick="navTo('https://keybase.io/mtadder')">
-          keybase: <span class="email"> keybase.io/MTadder </span>
-        </p>
-      </footer>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
