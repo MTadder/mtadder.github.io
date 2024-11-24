@@ -4,23 +4,18 @@ const CONFIG = {
   github: {
     username: 'mtadder',
   },
-  /**
-   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
-   * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
-   */
   base: '/',
   projects: {
     github: {
-      display: true, // Display GitHub projects?
+      display: true,
       header: 'Open-Source Solutions',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 16, // How many projects to display.
+        limit: 10,
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
-          projects: ['MTadder/CellularLaboratory'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['MTadder/CellularLaboratory', 'MTadder/mtadder.github.io'],
         },
       },
       manual: {
@@ -30,7 +25,6 @@ const CONFIG = {
     },
     external: {
       header: 'Projects',
-      // To hide the `External Projects` section, keep it empty.
       projects: [
         {
           title: 'Turbo Universe',
@@ -39,14 +33,6 @@ const CONFIG = {
             'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/tu.png',
           link: 'https://steampowered.com/',
         },
-        // {
-        //   title: 'Project Name',
-        //   description:
-        //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-        //   imageUrl:
-        //     'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-        //   link: 'https://example.com',
-        // },
       ],
     },
   },
