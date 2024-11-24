@@ -36,7 +36,7 @@ const CONFIG = {
           title: 'Turbo Universe',
           description: 'A space adventure epic',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+            'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/tu.png',
           link: 'https://steam.com',
         },
         // {
