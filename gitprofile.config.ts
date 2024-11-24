@@ -37,7 +37,7 @@ const CONFIG = {
           description: 'A space adventure epic',
           imageUrl:
             'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/tu.png',
-          link: 'https://steampowered.com',
+          link: 'https://steampowered.com/',
         },
         // {
         //   title: 'Project Name',
