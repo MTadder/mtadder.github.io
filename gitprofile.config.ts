@@ -27,17 +27,31 @@ const CONFIG = {
       projects: [
         {
           title: 'Turbo Universe',
-          description: 'A space adventure epic',
+          description: 'A space adventure epic. On Steam soon.',
           imageUrl:
             'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/tu.png',
           link: 'https://steampowered.com/',
         },
         {
-          title: 'Escapé',
-          description: 'Procedural platforming side-scroller',
+          title: 'Project Nova',
+          description: 'Bullet-hell, in space.',
           imageUrl:
             'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/escape.png',
-          link: 'https://steampowered.com/',
+          link: '#',
+        },
+        {
+          title: '3960 Consternation Dr.',
+          description: 'First-person psychological horror.',
+          imageUrl:
+            'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/escape.png',
+          link: '#',
+        },
+        {
+          title: 'Escapé',
+          description: 'Procedurally-infinite platforming side-scroller.',
+          imageUrl:
+            'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/escape.png',
+          link: '#',
         },
       ],
     },
@@ -67,7 +81,7 @@ const CONFIG = {
     telegram: '',
     website: '',
     phone: '',
-    email: 'mtadder@duck.com',
+    email: 'mtadder@pm.me',
   },
   resume: {
     fileUrl: '',
@@ -75,7 +89,9 @@ const CONFIG = {
   skills: [
     'Lua',
     'Java',
+    'Python',
     'Git',
+    '.NET',
     'Go',
     'C#',
     'C++',
@@ -87,6 +103,7 @@ const CONFIG = {
     'Godot',
     'LÖVE2D',
     'Unreal Engine',
+    'SteamAPI',
     'makefile',
     'Static Executable Analysis',
   ],
