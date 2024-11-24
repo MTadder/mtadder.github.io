@@ -30,7 +30,7 @@ const CONFIG = {
           description: 'A space adventure epic. On Steam soon.',
           imageUrl:
             'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/tu.png',
-          link: 'https://steampowered.com/',
+          link: '#',
         },
         {
           title: 'Project Nova',
@@ -51,6 +51,20 @@ const CONFIG = {
           description: 'Procedurally-infinite platforming side-scroller.',
           imageUrl:
             'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/escape.png',
+          link: '#',
+        },
+        {
+          title: "King's Chess",
+          description: 'Top-down medieval Real-Time-Strategy.',
+          imageUrl:
+            'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/nvme03.png',
+          link: '#',
+        },
+        {
+          title: 'The Truth',
+          description: 'Collaborative IRC-like team-based puzzle experience.',
+          imageUrl:
+            'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/star.png',
           link: '#',
         },
       ],
