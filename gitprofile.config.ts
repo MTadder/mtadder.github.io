@@ -237,8 +237,7 @@ const CONFIG = {
   footer: `Made with <a 
       class="text-primary" href="https://github.com/arifszn/gitprofile"
       target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+      rel="noreferrer">❤️</a>`,
   enablePWA: true,
 };
 export default CONFIG;
