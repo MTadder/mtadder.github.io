@@ -36,14 +36,14 @@ const CONFIG = {
           title: 'Project Nova',
           description: 'Bullet-hell, in space.',
           imageUrl:
-            'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/escape.png',
+            'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/pn.png',
           link: '#',
         },
         {
           title: '3960 Consternation Dr.',
           description: 'First-person psychological horror.',
           imageUrl:
-            'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/escape.png',
+            'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/crion.png',
           link: '#',
         },
         {
@@ -105,6 +105,8 @@ const CONFIG = {
     'Unreal Engine',
     'SteamAPI',
     'makefile',
+    'Batch Script',
+    'BASH',
     'Static Executable Analysis',
   ],
   experiences: [
