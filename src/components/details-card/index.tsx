@@ -4,7 +4,7 @@ import {
   AiFillInstagram,
   AiFillMediumSquare,
 } from 'react-icons/ai';
-import { FaXTwitter } from "react-icons/fa6";
+import { FaXTwitter } from 'react-icons/fa6';
 import { CgDribbble } from 'react-icons/cg';
 import {
   FaBehanceSquare,
@@ -23,7 +23,7 @@ import {
 import { FaSquareThreads } from 'react-icons/fa6';
 import { MdLocationOn } from 'react-icons/md';
 import { RiMailFill, RiPhoneFill } from 'react-icons/ri';
-import { SiResearchgate, SiTwitter, SiUdemy } from 'react-icons/si';
+import { SiResearchgate, SiUdemy } from 'react-icons/si';
 import { Profile } from '../../interfaces/profile';
 import {
   SanitizedGithub,
