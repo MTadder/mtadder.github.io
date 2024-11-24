@@ -4,6 +4,7 @@ import {
   AiFillInstagram,
   AiFillMediumSquare,
 } from 'react-icons/ai';
+import { FaXTwitter } from "react-icons/fa6";
 import { CgDribbble } from 'react-icons/cg';
 import {
   FaBehanceSquare,
@@ -180,7 +181,7 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
               {profile.location && (
                 <ListItem
                   icon={<MdLocationOn />}
-                  title="Based in:"
+                  title="Location:"
                   value={profile.location}
                 />
               )}
@@ -212,7 +213,7 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
               )}
               {social?.twitter && (
                 <ListItem
-                  icon={<SiTwitter />}
+                  icon={<FaXTwitter />}
                   title="Twitter:"
                   value={social.twitter}
                   link={`https://twitter.com/${social.twitter}`}

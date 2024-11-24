@@ -1,5 +1,4 @@
 // gitprofile.config.ts
-
 const CONFIG = {
   github: {
     username: 'mtadder',
@@ -31,6 +30,13 @@ const CONFIG = {
           description: 'A space adventure epic',
           imageUrl:
             'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/tu.png',
+          link: 'https://steampowered.com/',
+        },
+        {
+          title: 'Escapé',
+          description: 'Procedural platforming side-scroller',
+          imageUrl:
+            'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/escape.png',
           link: 'https://steampowered.com/',
         },
       ],
