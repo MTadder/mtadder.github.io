@@ -8,7 +8,7 @@ import { FaXTwitter } from 'react-icons/fa6';
 import { CgDribbble } from 'react-icons/cg';
 import {
   FaBehanceSquare,
-  FaBuilding,
+  // FaBuilding,
   FaDev,
   FaFacebook,
   FaGlobe,
@@ -38,13 +38,13 @@ type Props = {
   github: SanitizedGithub;
 };
 
-const isCompanyMention = (company: string): boolean => {
-  return company.startsWith('@') && !company.includes(' ');
-};
+// const isCompanyMention = (company: string): boolean => {
+//   return company.startsWith('@') && !company.includes(' ');
+// };
 
-const companyLink = (company: string): string => {
-  return `https://github.com/${company.substring(1)}`;
-};
+// const companyLink = (company: string): string => {
+//   return `https://github.com/${company.substring(1)}`;
+// };
 
 const getFormattedMastodonValue = (
   mastodonValue: string,
