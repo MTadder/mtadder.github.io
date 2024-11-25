@@ -30,42 +30,42 @@ const CONFIG = {
           description: 'A space adventure epic. On Steam soon.',
           imageUrl:
             'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/tu.png',
-          link: '#',
+          link: '',
         },
         {
           title: 'Project Nova',
           description: 'Bullet-hell, in space.',
           imageUrl:
             'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/pn.png',
-          link: '#',
+          link: 'https://mtadder.itch.io/project-nova-canceled',
         },
         {
           title: '3960 Consternation Dr.',
           description: 'First-person psychological horror.',
           imageUrl:
             'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/crion.png',
-          link: '#',
+          link: '',
         },
         {
           title: 'Escapé',
           description: 'Procedurally-infinite platforming side-scroller.',
           imageUrl:
             'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/escape.png',
-          link: '#',
+          link: '',
         },
         {
           title: "King's Chess",
           description: 'Top-down medieval Real-Time-Strategy.',
           imageUrl:
             'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/nvme03.png',
-          link: '#',
+          link: '',
         },
         {
           title: 'The Truth',
           description: 'Collaborative IRC-like team-based puzzle experience.',
           imageUrl:
             'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/star.png',
-          link: '#',
+          link: '',
         },
       ],
     },

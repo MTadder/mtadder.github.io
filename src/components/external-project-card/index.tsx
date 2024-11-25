@@ -85,7 +85,9 @@ const ExternalProjectCard = ({
             console.error(error);
           }
 
-          //window?.open(item.link, '_blank');
+          if (item.link.length !== 0) {
+            window?.open(item.link, '_blank');
+          }
         }}
       >
         <div className="p-8 h-full w-full">
