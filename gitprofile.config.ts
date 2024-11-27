@@ -11,7 +11,7 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 10,
+        limit: 8,
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
           projects: ['MTadder/CellularLaboratory', 'MTadder/mtadder.github.io'],
@@ -71,9 +71,10 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ayden G. Williams',
-    description: '',
-    imageURL: '',
+    title: 'Ayden G.W. (MTadder)',
+    description: 'Portfolio of Ayden G.W. (MTadder)',
+    imageURL:
+      'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/me.png',
   },
   social: {
     linkedin: 'mtadder',
@@ -90,7 +91,7 @@ const CONFIG = {
     behance: '',
     medium: '',
     dev: '',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    stackoverflow: '5781565/mtadder',
     skype: '',
     telegram: '',
     website: '',
