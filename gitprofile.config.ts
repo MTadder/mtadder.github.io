@@ -43,7 +43,7 @@ const CONFIG = {
           title: '3960 Consternation Dr.',
           description: 'First-person psychological horror.',
           imageUrl:
-            'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/testing.png',
+            'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/crion.png',
           link: '',
         },
         {
@@ -57,28 +57,28 @@ const CONFIG = {
           title: 'Cellular Laboratory',
           description: 'Cell-based Simulation Sandbox',
           imageUrl:
-            'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/testing.png',
+            'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/cell.png',
           link: '',
         },
         {
           title: 'Mayan Oracle',
           description: 'Web-based Dreamspell / Wavespell Tzolkin Calculator',
           imageUrl:
-            'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/testing.png',
+            'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/tart.png',
           link: '',
         },
         {
           title: "King's Chess",
           description: 'Top-down medieval Real-Time-Strategy.',
           imageUrl:
-            'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/testing.png',
+            'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/nvme03.png',
           link: '',
         },
         {
           title: 'The Truth',
           description: 'Collaborative IRC-like team-based puzzle experience.',
           imageUrl:
-            'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/testing.png',
+            'https://raw.githubusercontent.com/MTadder/mtadder.github.io/refs/heads/main/res/star.png',
           link: '',
         },
       ],
